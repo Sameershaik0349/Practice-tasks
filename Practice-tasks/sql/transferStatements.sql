@@ -1,20 +1,3 @@
-show databases;
-use college;
-create DATABASE transfer_statments;
-show tables;
-RENAME TABLE department.employee TO transfer_statments.table2;
-use transfer_statments;
-show tables;
-
-
-rename table table1 to department;
-rename table table2 to employee;
-
-
-
- desc employee;
- desc department;
------ innner join questionss
 
 
 --  Display employee name and their department name using INNER JOIN.
