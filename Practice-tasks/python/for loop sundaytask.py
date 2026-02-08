@@ -12,7 +12,7 @@ else:
     print("not a prime")
 
 
-[10,30,50,20]
+#[10,30,50,20]
 # Arrange the list  into ascending order without using the sort function.
 l = [10, 30, 50, 20]
 asen = []
