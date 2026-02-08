@@ -1,18 +1,18 @@
 # Check whether the given numbers is prime number or not, if it is a prime number,
 # Multiply it with 2.
-# user=int(input("enter a number"))
-# count=0
-# mul=0
-# for i in range(1,user):
-#     if user % i ==0:
-#         count+=1
-# if count ==1:
-#     print(user*2)
-# else:
-#     print("not a prime")
+user=int(input("enter a number"))
+count=0
+mul=0
+for i in range(1,user):
+    if user % i ==0:
+        count+=1
+if count ==1:
+    print(user*2)
+else:
+    print("not a prime")
 
 
-# [10,30,50,20]
+[10,30,50,20]
 # Arrange the list  into ascending order without using the sort function.
 l = [10, 30, 50, 20]
 asen = []
