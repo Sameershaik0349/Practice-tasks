@@ -2,7 +2,6 @@
 # Multiply it with 2.
 user=int(input("enter a number"))
 count=0
-mul=0
 for i in range(1,user):
     if user % i ==0:
         count+=1
