@@ -2,7 +2,6 @@
 # Multiply it with 2.
 user=int(input("enter a number"))
 count=0
-mul=0
 for i in range(1,user):
     if user % i ==0:
         count+=1
@@ -12,8 +11,12 @@ else:
     print("not a prime")
 
 
-# [10,30,50,20]
-# Arrange the list  into ascending order without using the sort function.
+# <<<<<<< HEAD
+# # [10,30,50,20]
+# =======
+# #[10,30,50,20]
+# >>>>>>> 8cf6e925378f9eff6c8019c7d5a71c6d5f2209bd
+# # Arrange the list  into ascending order without using the sort function.
 l = [10, 30, 50, 20]
 asen = []
 
