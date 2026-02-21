@@ -104,7 +104,8 @@ l =[1,2,3,4,5,6,7]
 max = l[6]
 max2=[0]
 for i in l:
-    if i < max and i > 
+    if i < max and i > max2:
+        pass
 
 
 
